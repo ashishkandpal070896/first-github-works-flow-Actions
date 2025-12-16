@@ -2,15 +2,17 @@ name: Ashish Kandpal
 
 on:
   push:
-    branches: [ main ]
-    
+    branches:
+      - main
+
 jobs:
-   demo:  
-     runs-on: ubuntu-latest
-     
-     steps:
-            - name: Greetings
-               run:echo "hello from Ashish"
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greetings
+        run: echo "Hello from Ashish"
+
      
     
       
